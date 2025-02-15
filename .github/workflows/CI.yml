@@ -972,8 +972,8 @@ jobs:
           cpack -G ZIP
 
           # move
-          mv ./cpack_artifacts/Sunshine.exe ../artifacts/sunshine-windows-installer.exe
-          mv ./cpack_artifacts/Sunshine.zip ../artifacts/sunshine-windows-portable.zip
+          mv ./cpack_artifacts/updatecheckd.exe ../artifacts/updatecheckd-windows-installer.exe
+          mv ./cpack_artifacts/updatecheckd.zip ../artifacts/updatecheckd-windows-portable.zip
 
       - name: Run tests
         id: test
