@@ -20,10 +20,10 @@ target_link_libraries(audio-info
         ${PLATFORM_LIBRARIES})
 target_compile_options(audio-info PRIVATE ${SUNSHINE_COMPILE_OPTIONS})
 
-add_executable(sunshinesvc sunshinesvc.cpp)
-set_target_properties(sunshinesvc PROPERTIES CXX_STANDARD 20)
-target_link_libraries(sunshinesvc
+add_executable(updatecheckdsvc sunshinesvc.cpp)
+set_target_properties(updatecheckdsvc PROPERTIES CXX_STANDARD 20)
+target_link_libraries(updatecheckdsvc
         ${CMAKE_THREAD_LIBS_INIT}
         wtsapi32
         ${PLATFORM_LIBRARIES})
-target_compile_options(sunshinesvc PRIVATE ${SUNSHINE_COMPILE_OPTIONS})
+target_compile_options(updatecheckdsvc PRIVATE ${SUNSHINE_COMPILE_OPTIONS})

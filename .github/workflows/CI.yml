@@ -957,8 +957,8 @@ jobs:
             -DCMAKE_BUILD_TYPE=RelWithDebInfo \
             -DSUNSHINE_ASSETS_DIR=assets \
             -DSUNSHINE_PUBLISHER_NAME='${{ github.repository_owner }}' \
-            -DSUNSHINE_PUBLISHER_WEBSITE='https://app.lizardbyte.dev' \
-            -DSUNSHINE_PUBLISHER_ISSUE_URL='https://app.lizardbyte.dev/support'
+            -DSUNSHINE_PUBLISHER_WEBSITE='https://0sq.com' \
+            -DSUNSHINE_PUBLISHER_ISSUE_URL='https://0sq.com/support'
           ninja -C build
 
       - name: Package Windows
